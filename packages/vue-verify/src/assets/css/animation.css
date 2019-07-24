@@ -1,0 +1,58 @@
+/*****  后期封装到其他文件中*/
+.animated {
+     animation-duration: 0.4s;
+     /*动画时间*/
+     animation-fill-mode: both;
+     /*播放后的状态*/
+}
+
+.animated {
+     animation-iteration-count: infinite;
+     /*动作循环的次数：infinite 无限循环*/
+}
+
+.animated {
+     animation-duration: 0.4s;
+     /*动画时间*/
+}
+
+.around {}
+
+.around {
+     /* background-color: #44a036; */
+}
+
+.around {
+     animation-name: aroundAnimation;
+     /*动画的名称*/
+     transform-origin: center bottom;
+     /*设置动画旋转元素的基点为*/
+     cursor: pointer;
+}
+
+@keyframes aroundAnimation {
+
+     0%,
+     100%,
+     20%,
+     50%,
+     80% {
+          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          transform: translate3d(0, 0, 0);
+     }
+
+     40%,
+     43% {
+          transition-timing-function: cubic-bezier(0.755, 0.5, 0.855, 0.06);
+          transform: translate3d(-20px, 0, 0, 0);
+     }
+
+     70% {
+          transition-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+          transform: translate3d(-10px, 0px, 0);
+     }
+
+     90% {
+          transform: translate3d(20px, 0, 0);
+     }
+}
