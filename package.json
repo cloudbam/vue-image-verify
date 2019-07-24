@@ -1,6 +1,6 @@
 {
   "name": "vue-image-verify",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Vue component to image verify plugins ",
   "author": "liuyinbin",
   "private": false,
