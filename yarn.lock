@@ -3892,9 +3892,9 @@ hex-color-regex@^1.1.0:
   integrity sha1-TAb8y0YC/iYCs8k9+C1+fb8aio4=
 
 highlight.js@^9.6.0:
-  version "9.15.8"
-  resolved "https://registry.npm.taobao.org/highlight.js/download/highlight.js-9.15.8.tgz#f344fda123f36f1a65490e932cf90569e4999971"
-  integrity sha1-80T9oSPzbxplSQ6TLPkFaeSZmXE=
+  version "9.18.5"
+  resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-9.18.5.tgz#d18a359867f378c138d6819edfc2a8acd5f29825"
+  integrity sha512-a5bFyofd/BHCX52/8i8uJkjr9DYwXIPnM/plwI6W7ezItLGqzt7X2G2nXuYSfsIJdkwwj/g9DG1LkcGJI/dDoA==
 
 hmac-drbg@^1.0.0:
   version "1.0.1"
@@ -7834,6 +7834,11 @@ vue-eslint-parser@^5.0.0:
     espree "^4.1.0"
     esquery "^1.0.1"
     lodash "^4.17.11"
+
+vue-event-proxy@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/vue-event-proxy/-/vue-event-proxy-1.0.5.tgz#f85b6be1d99cfbf49c9b13f490a3ec10e07fdfcf"
+  integrity sha512-p6pcSIiuNeYe8b5KyUbS1FlIcdv+yxmXl1DVM+mfxZi+b1b4Hy+KxXcRdz/iy5oVFnCHdUwtR/x8ng75bdbhWg==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.3"
